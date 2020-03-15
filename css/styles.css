@@ -1,0 +1,16 @@
+.blackbg {
+    background-color: #262626;
+    color: #ffe6ff;
+}
+
+.name {
+    text-align: center;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-style: oblique;
+    font-size: 2.5em;
+}
+
+.describe {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.5em;
+}
