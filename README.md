@@ -9,6 +9,6 @@
 * An up-to-date web browser
 ## A known bug is that pictures may not load properly on some web browsers.
 ## This webssite was created using HTML and CSS.
-[Access the website with this link](https://www.google.com)
+[Access the website with this link](https://mathewsalufwani.github.io/portfolio/)
 ### If you encounter any problems, be sure to email me at mathewalufwani@gmail.com or call me on +254704189013.
 ### Copyright (c) 2020 Alufwani inc.
