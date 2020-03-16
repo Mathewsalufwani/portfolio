@@ -21,11 +21,15 @@
     font-size: 2em;
 }
 
+.edu {
+    text-align: center;
+}
+
 img {
     float: right;
 }
 
-li {
+.list {
     float: left;
     text-align: center;
   }
@@ -38,7 +42,7 @@ li {
     text-decoration: none;
   }
 
-  ul {
+  .footlist {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -54,3 +58,6 @@ li {
     background-color: #ffe6ff;
     color: black;
   }
+
+  
+ 
