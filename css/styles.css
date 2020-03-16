@@ -30,11 +30,11 @@ img {
 }
 
 .list {
-    float: left;
+    float: right;
     text-align: center;
   }
   
-  li a {
+li a {
     display: inline-block;
     color: white;
     text-align: center;
@@ -42,7 +42,7 @@ img {
     text-decoration: none;
   }
 
-  .footlist {
+.footlist {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -50,14 +50,23 @@ img {
     background-color: #333;
   }
 
-  .footer {
+.footer {
     font-size: 1.8em;
   }
 
-  li a:hover {
+li a:hover {
     background-color: #ffe6ff;
     color: black;
   }
+
+.home{
+    background-color: rgb(250, 202, 248);
+    color: black;
+}
+
+.link{
+    color: rgb(73, 51, 66);
+}
 
   
  
