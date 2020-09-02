@@ -4,28 +4,180 @@
     <head>
         <title>My Portfolio</title>
         <link rel="icon" type="image/png" href="images/logo2.jpeg"/>
+        <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Quattrocento+Sans&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
+        <link href="css/bootstrap.css" rel ="stylesheet" type="text/css" media="all">
         <link href="css/styles.css" rel="stylesheet" type="text/css">
     </head>
 
     <body>
-
-        <div class="blackbg">
-            <h1 class="name">Mathews Alufwani</h1>
-
-            <p class="describe"><strong>My name is Mathews Alufwani, welcome to my portfolio. Take a look around!</strong></p>
-        </div>
-
-        <div class="whitebg">
-            <p class="intro"><em>I am a software development student at Moringa School. This website is designed to help you get to know me a little better. For any business inquires, you can find my details in the contacts section.</em></p>
-            <p><img src="images/city.jpeg" alt="An image of Mathews Alufwani" width="430" height="250">I am a firm believer in <em>simplicity</em> when bringing out aesthetics.<span class="span1">Simplicity allows for free flow of ideas without any loss of attractiveness or content.</span> Take a look at my previous projects and look to find any inspiration. Content will appeal to whoever your target website visitors are from blog readers to business men looking to transact business with you. This approach carries with it all the advantages. If the said description matches your needs, feel free to contact me and I will be in touch soon!</p>
-        </div>
-
-        <div class="footer">
-            <ul class="footlist">
-                <li class="list"><a href="my-projects.html">My Projects</a></li>
-                <li class="list"><a href="about-me.html">About Me</a></li>
-                <li class="list"><a href="contacts.html">Contacts</a></li>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background: linear-gradient(to right, #0099cc 0%, #66ffff 100%);">
+            <a class="navbar-brand" href="#mains"><img src="images/bar-chart-2.svg"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Intro</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#whitebg">About Me</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#project">My Projects</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contacts">Contact Me</a>
+                </li>
               </ul>
+            </div>
+        </nav>
+        <div class="blackbg" id="lj">
+            <div class="row">
+                <div class="col-md-6"></div>
+                <div class="col-md-5">
+                    <div id="mains" class="shadow-lg">
+                        <h1 class="text-center" id="name">Mathews Alufwani</h1>
+                        <h2 class="text-center" id="describe">Fullstack web developer</h2>
+                        <h3 class="text-center" id="describe">Welcome to my portfolio</h3><br>
+                        <a type="button" class="btn btn-outline-primary btn-lg btn-block" href="#whitebg">Take a look around</a><br><br><br><br><br><br><br><br>
+                    </div>
+                </div>
+                <div class="col-md-1"></div>
+            </div>
+        </div>
+        <div id="whitebg">
+            <h1 id="intro">Technologies Used</h1>
+            <div class="row">
+                <div class="col-md-1"></div>
+                <div class="col-md-3">
+                    <img src="images/html5.svg" width="15%" length="15%">
+                </div>
+                <div class="col-md-8">
+                    <h2 id="tech">HTML</h2>
+                </div>
+            </div>
+            <hr width="80%">
+            <div class="row">
+                <div class="col-md-1"></div>
+                <div class="col-md-3">
+                    <img src="images/css3.svg" width="15%" length="15%">
+                </div>
+                <div class="col-md-8">
+                    <h2 id="tech">CSS</h2>
+                </div>
+            </div>
+            <hr width="80%">
+            <div class="row">
+                <div class="col-md-1"></div>
+                <div class="col-md-3">
+                    <img src="images/javascript.svg" width="15%" length="15%">
+                </div>
+                <div class="col-md-8">
+                    <h2 id="tech">Javascript</h2>
+                </div>
+            </div>
+            <hr width="80%">
+            <div class="row">
+                <div class="col-md-1"></div>
+                <div class="col-md-3">
+                    <img src="images/python.svg" width="15%" length="15%">
+                </div>
+                <div class="col-md-8">
+                    <h2 id="tech">Python</h2>
+                </div>
+            </div>
+            <hr width="80%">
+            <div class="row">
+                <div class="col-md-1"></div>
+                <div class="col-md-3">
+                    <img src="images/django.svg" width="15%" length="15%">
+                </div>
+                <div class="col-md-8">
+                    <h2 id="tech">Django</h2>
+                </div>
+            </div>
+            <hr width="80%">
+            <div class="row">
+                <div class="col-md-1"></div>
+                <div class="col-md-3">
+                    <img src="images/angular.svg" width="15%" length="15%">
+                </div>
+                <div class="col-md-8">
+                    <h2 id="tech">Angular</h2>
+                </div>
+            </div>
+        </div>
+        <div class="projects" id="project">
+            <h1 class="text-center" id="proj">My Projects</h1>
+            <div id="blur">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h1 class="text-center" id="fonts">Award4word</h1>
+                        <div class="text-center" id="fonts"><a class="text-center" href="https://award4word.herokuapp.com/project/MyQuotes" target="_blank">View project here</a></div>
+                        <div id="img"><img src="images/award.png" width="100%" height="100%"></div>
+                    </div>
+                    <div class="col-md-4">
+                        <h1 class="text-center" id="fonts">Pirinsta</h1>
+                        <div class="text-center" id="fonts"><a class="text-center" href="https://pirinsta.herokuapp.com/" target="_blank">View project here</a></div>
+                        <div id="img"><img src="images/insta.png" width="100%" height="100%"></div>
+                    </div>
+                    <div class="col-md-4">
+                        <h1 class="text-center" id="fonts">The Famous Blog</h1>
+                        <div class="text-center" id="fonts"><a class="text-center" href="https://thefamousblog.herokuapp.com/" target="_blank">View project here</a></div>
+                        <div id="img"><img src="images/blog.png" width="100%" height="100%"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <h1 class="text-center" id="fonts">Picture-Gallery</h1>
+                        <div class="text-center" id="fonts"><a class="text-center" href="https://pictures-galleri.herokuapp.com/"target="_blank">View project here</a></div>
+                        <div id="img"><img src="images/picture.png" width="100%" height="100%"></div>
+                    </div>
+                    <div class="col-md-4">
+                        <h1 class="text-center" id="fonts">Pitches</h1>
+                        <div class="text-center" id="fonts"><a class="text-center" href="https://pitch-pitchez.herokuapp.com/" target="_blank">View project here</a></div>
+                        <div id="img"><img src="images/pitch.png" width="100%" height="100%"></div>
+                    </div>
+                    <div class="col-md-4">
+                        <h1 class="text-center" id="fonts">GitIt</h1>
+                        <div class="text-center" id="fonts"><a class="text-center" href="https://mathewsalufwani.github.io/GitIt/landing" target="_blank">View project here</a></div>
+                        <div id="img"><img src="images/git.png" width="100%" height="100%"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4"></div>
+                    <div class="col-md-4">
+                        <h1 class="text-center" id="fonts">QuotesBay</h1>
+                        <div class="text-center" id="fonts"><a class="text-center" href="https://mathewsalufwani.github.io/myquotes/" target="_blank">View project here</a></div>
+                        <div id="img"><img src="images/award.png" width="100%" height="100%"></div>
+                    </div>
+                    <div class="col-md-4"></div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="contact" id="contacts">
+            <div class="row">
+                <div class="col-md-1"></div>
+                <div class="col-md-5">
+                    <h1 id="con">Contact me:</h1><br>
+                    <img src="images/phone.svg"> : +254 704 189013<br><br>
+                    <img src="images/mail.svg"> : mathewalufwani@gmail.com<br><br>
+                    <img src="images/instagram.svg"> : @alufwany<br><br>
+                    <img src="images/twitter.svg"> : @alufwany
+
+                </div>
+                <div class="col-md-5">
+                    <img src="images/handset-311660_1280.png" width="80%" height="80%">
+                </div>
+                <div class="col-md-1"></div>
+            </div>
         </div>
         
     </body>

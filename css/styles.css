@@ -1,76 +1,68 @@
-.blackbg {
-    background-color: #262626;
-    color: #ffe6ff;
+.blackbg{
+    background-image: url(../images/hacker2.jpeg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
-
-.name {
-    text-align: center;
-    font-family: "Lucida Console", Monaco, monospace;
-    font-style: oblique;
-    font-size: 2.7em;
-}
-
-.describe {
-    font-family: "Times New Roman", Times, serif;
-    font-size: 1.5em;
-}
-
-.whitebg {
-    background-color: #ffe6ff ;
-    color: #262626;
-    font-size: 2em;
-}
-
-.edu {
-    text-align: center;
-}
-
-img {
-    float: right;
-}
-
-.list {
-    float: right;
-    text-align: center;
-  }
-  
-li a {
-    display: inline-block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-
-.footlist {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-  }
-
-.footer {
-    font-size: 1.8em;
-  }
 
 li a:hover {
-    background-color: #ffe6ff;
-    color: black;
-  }
-
-.home{
-    background-color: rgb(250, 202, 248);
+    background-color: #0099e6;
     color: black;
 }
 
-.link{
-    color: rgb(73, 51, 66);
+#mains{
+    margin-top: 25%;
+    margin-bottom: 50%;
+    padding: 4%;
+    backdrop-filter: blur(10px);
 }
 
-.span1 {
-    text-decoration: underline;
+#name{
+    font-family: 'Krona One', sans-serif;
+    color: #bfbfbf;
 }
 
-  
- 
+#describe{
+    font-family: 'Lobster Two', cursive;
+    color: #bfbfbf;
+}
+
+#intro{
+    margin-top: 2%;
+    margin-left: 5%;
+    font-family: 'Quattrocento Sans', sans-serif;
+}
+
+#tech{
+    color: #006080;
+}
+
+.projects{
+    background-image: url(../images/hacker3.jpeg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#whitebg{
+    margin-bottom: 2%;
+}
+
+#blur{
+    backdrop-filter: blur(10px);
+    padding: 3%;
+    margin: 2%;
+}
+
+#proj{
+    font-family: 'Pacifico', cursive;
+    color: #ffffff;
+    padding-top: 2%;
+}
+
+#fonts{
+    color: #d9d9d9;
+    font-family: 'Patrick Hand', cursive;
+}
+
+#con{
+    font-family: 'Yellowtail', cursive;
+}
